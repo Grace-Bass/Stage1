@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajout</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <!-- en haut -->
+    <div class="navtop">MON AGENDA</div>
+    <!-- a gauche -->
+    <div class="navleft">
+      <ul>
+        <li><a href="#">Ajout</a></li>
+        <li><a href="/html/liste.html">Listes</a></li>
+        <li><a href="/html/calendrier.html">Calendrier</a></li>
+        <li><a href="/html/details.html">Details</a></li>
+        <li><a href="./calendrier2.html">Mois</a></li>
+        <li><a href="./calendrier3.html">Jour</a></li>
+      </ul>
+
+    </div>
+    <!-- Formulaire -->
+
+    <div class="formulaire">
+      <form>
+        <div class="row">
+          <input type="text" placeholder="Titre de l'événement" required>
+          <textarea placeholder="Description" rows="0" cols="10"></textarea>
+        </div>
+        <div class="row">
+          <input type="date" placeholder="Date de début" required>
+          <input type="date" placeholder="Date de fin" required>
+        </div>
+        <div class="bloc">
+          <button type="submit">Ajouter</button>
+          <button type="reset"><a href="/html/liste.html">Annuler</a></button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
